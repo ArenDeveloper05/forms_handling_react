@@ -1,0 +1,13 @@
+.form {
+  border: solid;
+  width: max-content;
+  padding: 24px;
+  margin: auto;
+  &-row {
+    border: solid;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+  }
+}
